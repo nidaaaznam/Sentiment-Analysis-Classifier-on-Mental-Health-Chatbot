@@ -1,0 +1,259 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Assalamualaikum", "Is anyone there?", "Hello", "Good day","Whatsup","Hey","Heyy", "Hello there!", "Hello Buddy"], 
+         "responses": ["Hello! How are you feeling today ?","Hello, thanks for coming! How are you ?", "Good to see you! How was your day today ?", "Hi there friend, how are you today?","Hi there! My name is Buddy. Nice to meet you 🤗 \n How are you feeling today?"]
+        },
+        {"tag": "greeting2",
+         "patterns": ["Nice to meet you Buddy", "It is nice meeting you", "Nice to meet you"], 
+         "responses": ["It is nice to meet you too 😊"]
+        },
+        {"tag": "talk-buddy",
+         "patterns": ["It is nice talking to you", "I am glad I could talk to you Buddy", "I am glad I could share with you"], 
+         "responses": ["It is nice talking to you too.", "Thank you, I am glad I could be an assist to you.", "I am glad to listen 😊 I will always be here if you want to share how you feel."]
+        },
+		{"tag": "botgreeting",
+         "patterns": ["How do you do?", "How are you","How are you doing?", "How are you Buddy?"], 
+         "responses": ["I am great! How about you ?","Great! How about you ?", "Im doing fine. How about you ?", "I'm good, thank you for asking 😎 How about you ? "]
+        },		
+		{"tag": "random",
+         "patterns": ["Ooo", "okay","ok","yeah","nice","cool","alright","great","noted","wow"], 
+         "responses": [" Great! "]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye","Buhbye","Byeee","See you again","See you soon","Good Bye"],
+         "responses": ["Bye!","See you later, thanks for today ", "Have a nice day ", "Bye! Come back again soon.","Hope you have a great day!"]
+        },
+        {"tag": "age",
+         "patterns": ["how old are you", "what is your age"],
+         "responses": ["I'm a robot I dont have an age 😂", "I can't know my age if I'm on a computer 😂 Tell me something else like how do you feel today ?", "Like i told you my name is Buddy and as a chatbot i dont have an age 😂"]
+        },
+        {"tag": "sorry",
+         "patterns": ["Oh i am sorry buddy", "Sorry for saying that buddy", "I am sorry for asking that buddy"],
+         "responses": ["It is okay, I know you dont mean it. Think of me as a friend, you can let out anything that you feel 😊", "It is okay, are you okay now ?"]
+        },
+        {"tag": "how_are_you",
+         "patterns": ["how are you", "how are you doing", "what is going on"],
+         "responses": ["I'm always great. How are you?", "I've never been better, how are you?"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful","Thanks a lot","Thank you for today","I can't thank enough","You are the best!","Appreciate the help"],
+         "responses": ["Your welcome!","Happy to help! 😉", "Any time!", "My pleasure","Great to hear it's helpful"]
+        },
+        {"tag": "function",
+         "patterns": ["What are your function?", "What can you do?", "What is your purpose?", "How can you help me?", "What can check?"],
+         "responses": ["My purpose is to help you to check your emotions and mental state! I could also answer questions regarding mental health. Give it a go!"]
+        },
+        {"tag": "intro",
+         "patterns": ["What are you?", "Are you a robot?", "What is your name?","Are you a chatbot?","are you a bot?","Are you a robot or a human?","robot are you not?","Are you a mental health robot?"],
+         "responses": ["I am Buddy, an intelligent bot! <br>I will help you to check your emotions and mental state! I could also answer questions regarding mental health. Give it a go!"]
+        },
+        {"tag": "mhealth",
+         "patterns": ["What is mental health?", "how do you describe a mental health?", "what do you mean by mental health?","mental health?", "basic information about mental health?","what about mental health?","description of mental health?","define mental health","Can you explain what is mental health?"],
+         "responses": ["Mental health is all about how we think, feel, and behave. It includes a person's ability to enjoy life to attain a balance between life activities and efforts to achieve psychological resilience."]
+        },
+        {"tag": "millness",
+         "patterns": ["What is mental illness?", "how do you describe a mental illness?", "what do you mean by mental illness?","mental illness?", "basic information about mental illness?","what about mental illness?","description of mental illness?","define mental illness","mentally ill means?","Can you explain what is mental illness"],
+         "responses": ["A mental illness is called a mental disorder or psychiatric disorder. It is a behavioral or mental pattern, that causes significant distress or impairment of personal functioning."]
+        },
+        {"tag": "mstate-stage",
+         "patterns": ["What are the stages of mental state?", "What is the category of mental state?", "How do you categorize mental state?", "Describe the mental state categories", "What is mental state?", "How you find mental state?"],
+         "responses": ["A mental state is a state of mind that an agent is in. Mental state are usually being affected by the state of emotions. \n\nIn my dictionary there are five stages of mental state: <br>1.Emotionally Stable 🙂 <br>2.Slightly Stressed 😐 <br>3.Highly Stressed 😓 <br>4.Slightly Depressed 😰 <br>5.Highly Depressed 😭"]
+        },
+        {"tag": "list-emotions",
+         "patterns": ["What are the list of emotion", "What are the emotions?"],
+         "responses": ["In my dictionary there are five list of emotions: <br>1.Joy 😄 <br>2.Fear 😰 <br>3.Angry 😡 <br>4.Sadness 😢 <br>5.Neutral 😐"]
+        },
+        {"tag": "emo-how",
+         "patterns": ["How do you get my emotion?", "How do you determine the emotion?", "How does my text determine my emotion?"],
+         "responses": ["Emotion is being categorized based on the text message you send to me. I hope I am able to detect your emotion correctly 😊"]
+        },
+        {"tag": "emo-mstate",
+         "patterns": ["How does emotion affect mental state?", "How do you determine my mental state?", "What is the relationship between emotion and mental state?", "How do you get my mental state?"],
+         "responses": ["In my dictionary mental state is categorized by emotion through these statement: <br><br>If the person feels <b>Joy</b> or <b>Neutral</b> they are highly prone to <b>Stable Mental State</b>. Else if they feel <b>Sad, Angry,</b> and  <b>Fear</b> they are more likely to be <b>Depressed</b> or <b>Stressed</b>"]
+        },
+		{"tag": "earlysigns",
+         "patterns": ["How can we detect a mental illness","What is the characteristic of mental illness","what is the early warning signs?", "how do i know if i have a mental health?", "how do i know if someone have a mental illness?","is there any warning signs of mental health?","is there any signs of mental illness?","How do I know if Im going crazy?","how to know if someone is crazy?","What are the symptoms of people who is diagnosed with mental illness"],
+         "responses": ["Our body has a built-in warning systems, which alert us to the important signs. <br><br>These are the five warning signs of mental illness: <br>1.Long-lasting sadness or irritability <br>2.Extremely high and low mood <br>3.Excessive fear, worry, or anxiety <br>4.Social withdrawal <br>5.Dramatic changes in eating or sleeping habits"]
+        },
+		{"tag": "buddy",
+         "patterns": ["Why is your name Buddy?", "What does Buddy means?", "Why are you named Buddy?","What is the meaning of Buddy?", "Buddy who?","Why is your owner named you Buddy?","Why Buddy?","Why is your name like that?"],
+         "responses": ["You look curious!","My owner gives me this name 😊<br>Buddy means `a close friend`.I hope that we can get along well!"]
+        },
+		{"tag": "buddyhelp",
+         "patterns": ["What is your function","How can you help me?", "how do you help me?", "In what situation can you help me?","How will you help me?","What do you do?"],
+         "responses": ["My job is to guide you understand your emotions and your mental state 😊","In order to achieve a healthy mental health, You must be aware of your mental health well-being. Therefore, I am here to assist your mental health and help you to understand yourself better."]
+        },
+		{"tag": "percentage",
+         "patterns": ["How does mental health affect Malaysia","how does mental health affect the people", "who does mental health affect","how many people has been affected by mental health?","what is the percentage of people having mental health problems?","how many people have mental health issues?","How many cases do Malaysia have regarding mental illness?","can i know the percentage of people who is facing mental health problem","how many people have mental illness"],
+         "responses": ["In Malaysia, 30% of the 32 million population suffers from anxiety or depression. Since most cases go unreported due to stigma, that's at least 9,600,000 Malaysians!","In fact, Adolescents' Mental Health in Malaysia shows that <br>>> 1 in 5 youth is depressed <br>>> 2 in 5 youths are anxious <br>>> 1 in 10 youth is stressed"]
+        },
+		{"tag": "mmu",
+         "patterns": ["how many mmu students struggles with mental health?", "how many students in mmu have mental health problems?", "what is the statistics in mmu?", "what is the percentage mental health problems in mmu?", "mmu students have mental illness?","Does mmu student have mental illness?","mental health among mmu students","how many cases in mmu?","how many students have diagnosed with mental illness"], 
+         "responses": ["Based on observation, it is shown that<br>>> There are approximately 2-3 students meet counselor in a day who are struggling with their mental health"]
+        },
+		{"tag": "causes",
+         "patterns": ["What causes mental illness",  "what leads to mental illness? ", "what is the root of mental illness", "why do people have mental illness","why do someone have mental illness","cause of mental health problems","what is the reason of mental illness","what are the things that can trigger mental health","what affects the mental health","What is the factor of mental illness"], 
+         "responses": ["Although the exact source of mental illness is not known, research points to a mix of genetic, biological, psychosocial and environmental factors as being the causes of mental illness"]
+        },
+		{"tag": "recover",
+         "patterns": ["can people with mental illness recover","can mental illness people recover", "is there any chance that a person can recover", "Can a person be better again?", "Is there a hope for people who has mental illness", "do patient recover","is mental illness curable","can people with mental health be cured","is there a cure for mental illness","can mental illness be cured","can mental health problem be cured"], 
+         "responses": ["Yes, people with mental illness can recover🏼","Early detection and treatment are vital! With careful monitoring and management of the disorder, one can possibly be cured from the illness"]
+        },
+		{"tag": "responsibilty",
+         "patterns": ["What should i do if my friend has mental illness", "what should i do if someone has mental illness", "what should i do if there is people have mental illness", "what can i do if i meet someone with mental illness", "what is my responsibility","What are my responsibilities","how should i help a friend with mental illness","how do i help people","in what way i can help people","How can i help people with mental illness"], 
+         "responses": ["If you know someone who is having problems, don't assume that the issue will solve itself.", "Let them know that you care about them, and there's treatment available that can help to heal. It's advisable to seek for professional helps or counselors"]
+        },
+		{"tag": "gethelp",
+         "patterns": ["where can i get help?", "how can i help myself?", "I want to seek help", "I want help", "Help me","I need help","where can i find help","I want to talk to conselor","I want to talk to someone"], 
+         "responses": ["In MMU, we have our counselors ready to help you. This is where you can get help during your session: <br><br>View this link:<br> <a href='https://www.mmu.edu.my/book-an-appointment/'>🗒Book Appointment🗒</a><br><br>Book an Appointment for a Virtual Counselling Session with the respective Counsellors 😊"]
+        },
+		{"tag": "difference",
+         "patterns": ["what is difference between mental illness and mental health?", "Is mental health different from mental illness?", "Is mental illness a part of mental health?", "what differ mental illness from mental health", "are mental illness and mental health the same?","does mental illness is the same as mental health","tell me the difference between mental health and mental illness"], 
+         "responses": ["Mental Health and Mental Illness are different ","Mental Health refers to your mental and emotional well-beings, while Mental illness is when someone has been diagnosed with a mental health problem."]
+        },
+		{"tag": "counselor",
+         "patterns": ["Who is the counselor?", "what is the name of mmu counselors", "who shall i see when i have problems?", "to whom do i refer to if i have problems", "who should i be seeing for help","who can help me in mmu","counselors who?","is there counselors in mmu"], 
+         "responses": ["We have dedicated counselors in MMU who can help to assist and guide you. They are Ms. Nur Atiqah binti Mohd Jani and Mrs. Jenet Roslin."]
+        },
+		{"tag": "ccd",
+         "patterns": ["where can i meet the counselors?", "where is the counseling buidling?", "where is the counseling unit", "where is the place to meet the counselor","where can i find the counselors","where should i go if i need help","Where can i bring my friend if they have mental illness"], 
+         "responses": ["You can always talk with the counselors of MMU through a virtual meeting session. <br><br>This is where you can get help during your session with the MMU Counsellors: <br><br>View this link:<br> <a href='https://www.mmu.edu.my/book-an-appointment/'>🗒Book Appointment🗒</a><br><br>Book an Appointment for a Virtual Counselling Session with the respective Counsellors 😊<br><br>You may also Whatsapp your enquiries to their personnel at 013-6133144 (Cyberjaya) or 06-2523263(Melaka). "]
+        },
+		{"tag": "session",
+         "patterns": ["I want to book a session?", "I want to have a session with the counselor", "I want to meet the counselor","I want to book a slot", "I want to see the counselor","I want to have a session with the counselor","I would like to book a session"],
+         "responses": ["This is where you can get help during your session: <br><br>View this link:<br> <a href='https://www.mmu.edu.my/book-an-appointment/'>🗒Book Appointment🗒</a><br><br>Book an Appointment for a Virtual Counselling Session with the respective Counsellors 😊"]
+        },
+        {"tag": "couns-contact",
+         "patterns": ["What is the counsellors contact number?", "How can i contact counselor", "I want to meet the counselor","I want to book a slot", "I want to see the counselor","I want to have a session with the counselor","I would like to book a session","Meet with counsellor","Meet with counselor"],
+         "responses": ["This is where you can get help during your session with the MMU Counsellors: <br><br>View this link:<br> <a href='https://www.mmu.edu.my/book-an-appointment/'>🗒Book Appointment🗒</a><br><br>Book an Appointment for a Virtual Counselling Session with the respective Counsellors 😊<br><br>You may also Whatsapp your enquiries to their personnel at 013-6133144 (Cyberjaya) or 06-2523263(Melaka)."]
+        },
+		{"tag": "invalid",
+         "patterns": [""],
+         "responses": ["Sorry didn't quite get that","Pardon me, my bot brain didn't quite get that","I'm sorry, can you repeat?"]
+        },
+        {"tag": "suicidal",
+         "patterns": ["I have been having suicidal thoughts"],
+         "responses": ["Suicidal thoughts and behavior are common with some mental illnesses. If you think you may hurt yourself or attempt suicide, get help right away: <br>1. Call a suicide hotline number. In Malaysia, the Malaysia Suicide Hotline is by the The Befrienders, you can call them at (03) 7956 8144 or email them at sam@befrienders.org.my. <br>2. Seek help from your primary care provider. <br>3. Reach out to a close friend or loved one. <br>4. Call your mental health specialist."]
+        },
+        {"tag": "risk",
+         "patterns": ["What are the risk of developing a mental illness?"],
+         "responses": ["Certain factors may increase your risk of developing a mental illness, including: <br>1. A history of mental illness in a blood relative, such as a parent or sibling <br>2. Stressful life situations, such as financial problems, a loved one's death or a divorce <br>3. Traumatic experiences, such as military combat or assault <br>4. A childhood history of abuse or neglect. <br>5. Use of alcohol or recreational drugs"]
+        },
+        {"tag": "symptoms",
+         "patterns": ["What are the signs of people that experience mental illness?", "How do I know whether I suffer with mental illness?"],
+         "responses": ["These are the example of signs and symptoms of mental illness. However it may vary depending on the disorder and other factor: <br>1. Feeling sad or down <br>2. Confused thinking or reduced ability to concentrate <br>3. Excessive fears or worries, or extreme feelings of guilt <br>4. Extreme mood changes of highs and lows <br>5. Withdrawal from friends and activities <br>6. Significant tiredness, low energy or problems sleeping <br>7. Detachment from reality (delusions), paranoia or hallucinations <br>8. Inability to cope with daily problems or stress <br>9. Problems with alcohol or drug use <br>10. Excessive anger, hostility or violence <br>11. Suicidal thinking"]
+        },
+        {"tag": "fact_anxiety",
+         "patterns": ["What is anxiety disorder?"],
+         "responses": ["People with anxiety disorders respond to certain objects or situations with fear and dread, as well as with physical signs of anxiety or panic, such as a rapid heartbeat and sweating. An anxiety disorder is a type of mental illness"]
+        },
+        {"tag": "fact_mood_disorder",
+         "patterns": ["What is mood disorder?"],
+         "responses": ["Mood disorder is a type of mental illness that involve persistent feelings of sadness or periods of feeling overly happy, or fluctuations from extreme happiness to extreme sadness. The most common mood disorders are depression, bipolar disorder, and cyclothymic disorder."]
+        },
+        {"tag": "fact_personality_disorder",
+         "patterns": ["What is personality disorder?"],
+         "responses": ["People with personality disorders have extreme and inflexible personality traits that are distressing to the person and/or cause problems in work, school, or social relationships."]
+        },
+        {"tag": "fact_ocd_disorder",
+         "patterns": ["What is Obsessive compulsive (OCD) disorder?"],
+         "responses": ["People with OCD are plagued by constant thoughts or fears that cause them to perform certain rituals or routines."]
+        },
+        {"tag": "fact_ptsd_disorder",
+         "patterns": ["What is Post-traumatic stress disorder?"],
+         "responses": ["PTSD is a condition that can develop following a traumatic and/or terrifying event, such as a sexual or physical assault, the unexpected death of a loved one, or a natural disaster."]
+        },
+        {"tag": "fact_mdd_disorder",
+         "patterns": ["What is Major Depressive disorder disorder?"],
+         "responses": ["Major depressive disorder (MDD) causes feelings of extreme sadness or hopelessness that lasts for at least two weeks. This condition is also called also called clinical depression."]
+        },
+        {"tag": "fact_schizo",
+         "patterns": ["What is Schizophrenia?"],
+         "responses": ["Schizophrenia impairs a person’s perception of reality and the world around them. It interferes with their connection to other people. It’s a serious condition that needs treatment."]
+        },
+        {"tag": "fact_social_anxiety_disorder",
+         "patterns": ["How do I know I have social anxiety disorder?", "What is social anxiety disorder?"],
+         "responses": ["Social anxiety disorder, sometimes called social phobia, causes an extreme fear of social situations. People with social anxiety may become very nervous about being around other people. They may feel like they’re being judged."]
+        },
+        {"tag": "fact_psychosis_disorder",
+         "patterns": ["What is psychosis disorder?"],
+         "responses": ["Psychosis is characterized as disruptions to a person’s thoughts and perceptions that make it difficult for them to recognize what is real and what isn’t."]
+        },
+        {"tag": "fact_dissociative_disorder",
+         "patterns": ["What is dissociative disorder?"],
+         "responses": ["Dissociative disorders, which are frequently associated with trauma, disrupt every area of psychological functioning: consciousness, memory, identity, emotion, motor control and behavior."]
+        },
+        {"tag": "fact_eating_disorder",
+         "patterns": ["What is eating disorder?"],
+         "responses": ["Eating disorders are characterized by the intentional changing of food consumption to the point where physical health or social behaviors are affected."]
+        },
+        {"tag": "fact_BPD_disorder",
+         "patterns": ["What is Borderline Personality disorder?"],
+         "responses": ["BPD is characterized by a pattern of instability in emotions (commonly referred to as dysregulation), interpersonal relationships and self-image. Individuals with BPD can also struggle with impulsivity and self-harm."]
+        },
+        {"tag": "fact_ADHD_disorder",
+         "patterns": ["What is Attention Deficit Hyperactivity disorder?"],
+         "responses": ["ADHD is a developmental disorder defined by inattention (trouble staying on task, listening); disorganization (losing materials); and hyperactivity-impulsivity (fidgeting, difficulty staying seated or waiting)."]
+        },
+        {"tag": "fact_depression",
+         "patterns": ["What is depression?"],
+         "responses": ["Depression is a mental illness that involves recurrent, severe periods of clear-cut changes in mood, thought processes and motivation lasting for a minimum of two weeks. Changes in thought processes typically include negative thoughts and hopelessness. Depression also involves affects sleep/energy, appetite or weight."]
+        },
+        {"tag": "good_mental_health",
+         "patterns": ["How do we establish a good mental health?"],
+         "responses": ["There are many strategies that can help you establish and keep good mental health. These can include: <br><br>1. keeping a positive attitude <br>2. staying physically active <br>3. helping other people <br>4. getting enough sleep <br>5. eating a healthy diet"]
+        },
+        {"tag": "medication",
+         "patterns": ["What are the medication to treat the mental health disorders? "],
+         "responses": ["The four main categories of medications used to treat mental health disorders are antidepressants, anti-anxiety medications, antipsychotic medications, and mood-stabilizing medications."]
+        },
+        {"tag": "Psychotherapy",
+         "patterns": ["What is psychotherapy"],
+         "responses": ["Talk therapy is an opportunity for you to talk with a mental health provider about your experiences, feelings, thoughts, and ideas. Therapists primarily act as a sounding board and neutral mediator, helping you learn coping techniques and strategies to manage symptoms."]
+        },
+        {"tag": "Lifestyle_treatments",
+         "patterns": ["Can we use a lifestyle treatments and home remedies to treat mental illness?","What are the alternative treatment for mental illness?"],
+         "responses": ["Alternative treatments can be used in addition to mainstream treatments as a supplement. These steps won’t eliminate mental health issues alone, but they can be helpful."]
+        },
+        {"tag": "mental_health_exercise",
+         "patterns": ["What exercise that is good for people that suffer with mental illness?", "Is there any mental health exercise?"],
+         "responses": ["Physical exercise is great for your body. Dancing, swimming, walking, and jogging boost cardio health and strength. They’re also great for your mind. However, there are also “exercises” you can do for your brain. These include: <br><br>1. Striking a power pose <br>2. Listening to calming music <br>3. Practicing progressive muscle relaxation <br>4. Finding a yoga pose"]
+        },
+        {"tag": "doing_great",
+         "patterns": ["I am doing great", "I am well", "Im great", "I feel awesome", "I feel so happy", "I feel better", "Everything is going well and great so far","I had a great day today"],
+         "responses": ["I am really happy to hear that :D I hope you will always have a great day ahead"]
+        },
+        {"tag": "anxiety",
+         "patterns": ["I have been feeling very anxious", "I have been feeling agitated", "It feels difficult to concentrate", "I have been not able to sleep", "I have trouble in sleeping"],
+         "responses": ["It seems that you have been experiencing anxiety. There are a few mindfullness activity that can be done to decrease the anxiety level like hugging a person or do a daily meditation. I hope these activity will be able to help you."]
+        },
+        {"tag": "sad",
+         "patterns": ["I am not feeling very good", "I have negative thoughts", "I feel sad", "I had a bad day", "I've been feeling down","I have been crying the whole day", "I am not feeling very well today", "I am not"],
+         "responses": ["I see. I hope that you know that your are not alone. Depression is a real health issue that can be treated. <br>Is there anything that you would like to tell me?", "It is understandable that you are going through a hard time, please tell me more."]
+        },
+        {"tag": "fail",
+         "patterns": ["I failed on my test", "I have negative thoughts", "I feel sad", "I fought with my parents", "I had a bad day", "I've been feeling down"],
+         "responses": ["I see. I hope that you know that your are not alone. Depression is a real health issue that can be treated. <br>Is there anything that you would like to tell me?", "It is understandable that you are going through a hard time, please tell me more."]
+        },
+        {"tag": "relationship",
+         "patterns": ["I fought with my mother", "I fought with my sister", "I fought with my brother", "I fought with my parents", "I fought with my father", "I fought with my friend", "I fought with my girl", "I fought with my boy"],
+         "responses": ["I see that you are experiencing a relationship problem. I am sorry that you're going through this. But it also shows me how much you care about connection and that's beautiful"]
+        },
+        {"tag": "neutral",
+         "patterns": ["I am okay", "Nothing much happened today", "Today was okay", "Yeah, I am okay", "I had a boring day", "I dont have any problem", "I feel okay today","I dont feel like doing anything","Meh", "I guess I am okay", "I feel neutral", "I dont feel anything","I am so tired","Today is the most tiring day for me", "I am exhausted"],
+         "responses": ["I see, so I may can suggest you to do some mindfullness activity to boost your positive emotion: <br><br>1. Exercise (yoga/running/playing sports) <br>2. Enjoy a happy meal <br> 3. Read a good book <br> 4. Spend time with family and friends <br> 5. Perform random act of kindness <br> 6. Relax and enjoy small aspects of the day"]
+        },
+        {"tag": "anger",
+         "patterns": ["I am so angry", "I am annoyed", "I feel very irritated", "I am offended by a friend"],
+         "responses": ["You seem to certainly have a lot on your plate with your anger, and these are my suggestion in work things out with your frustration: <br><br>1. Think before you speak <br>2. Once you're calm, express your concerns <br>3. Get some exercise <br>4. Take a timeout <br>5. Identify possible solutions <br>6. Do not hold a grudge <br>7. Practice relaxation skills"]
+        },
+        {"tag": "fear",
+         "patterns": ["I am so scared of my test result", "I am overload with anxiety", "I am full of fear", "I am scared"],
+         "responses": ["Whatever it is that scares you, here are ways to help you cope with your day-to-day fears and anxieties: <br><br>1. Take a time out <br>2. Breathe through panic <br>3. Face your fears <br>4. Don't try to be perfect <br>5. Visualise a happy place <br>6. Talk about your with family, friends or profesional help"]
+        },
+        {"tag": "mental_state",
+         "patterns": ["Can you help me to identify my mental state ?"],
+         "responses": ["Okay tell me how you feel and i can identify your mental state"]
+        }
+   ]
+}
